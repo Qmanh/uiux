@@ -1,6 +1,6 @@
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 
-const HeaderOnly = ({ children }) => {
+function HeaderOnly({ children }) {
   return (
     <div>
       <Header />
@@ -9,6 +9,6 @@ const HeaderOnly = ({ children }) => {
       </div>
     </div>
   );
-};
+}
 
 export default HeaderOnly;
